@@ -37,6 +37,12 @@ img{
 	width:100%;
 }
 
+.modal-body li {
+    font-size: 14px;
+    margin-left: 10px;
+    list-style-type: circle;
+ }
+
 /*-- header --*/
 h1 a.navbar-brand {
     font-size: 35px;
