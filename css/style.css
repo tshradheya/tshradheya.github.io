@@ -506,7 +506,7 @@ b, strong {
 /*-- //bootstrap-modal-pop-up --*/
 
 /*-- about --*/
-.about h3, .skills h3, .map h3 {
+.about h3, .skills h3, .map h3, .contact h3 {
     font-size: 40px;
     text-align: center;
     margin-bottom: 30px;
@@ -1208,14 +1208,15 @@ span.glyphicon:hover {
 ul.top-links li {
     display: inline-block;
     margin: 0 .3em;
+    padding-right: 32px
 }
 ul.top-links li a i.fa {
     color: #fff;
-    font-size: 15px;
+    font-size: 40px;
     background: #656565;
     padding: 0.7em 0;
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     line-height: 20px;
     text-align: center;
     transition: all 0.5s ease-in-out;
@@ -1234,7 +1235,7 @@ ul.top-links li a i.fa:hover {
 .top-links i.fa.fa-twitter {
     background: #0087da;
 }
-.top-links i.fa.fa-google-plus {
+.top-links i.fa.fa-quora {
     background: #dd4b39;
 }
 .top-links i.fa.fa-linkedin {
@@ -1394,7 +1395,7 @@ iframe {
 		font-size: 30px;
 		letter-spacing: 1px;
 	}
-	.about h3, .skills h3, .map h3 {
+	.about h3, .skills h3, .map h3, .contact h3 {
 		font-size: 35px;
 		letter-spacing: 1px;
 	}
@@ -1625,7 +1626,7 @@ iframe {
 	.education-w3l {
 		padding: 0 2em;
 	}
-	.about h3, .skills h3, .map h3 {
+	.about h3, .skills h3, .map h3, .contact h3 {
 		font-size: 30px;
 	}
 	.about-left h3 {
@@ -1709,9 +1710,9 @@ iframe {
 		margin-top: 2em;
 	}
 	ul.top-links li a i.fa {
-		width: 36px;
-		height: 36px;
-		line-height: 18px;
+		width: 72px;
+		height: 72px;
+		line-height: 24px;
 	}
 	.w3_banner_info {
 		width: auto;
