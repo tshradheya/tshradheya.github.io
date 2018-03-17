@@ -85,7 +85,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							When not coding, I am either following various sporting events or having political debates with strangers.</p>
 					<ul data-aos="slide-up">
 						<li><a href="#" class="w3ls_more" data-toggle="modal" data-target="#myModal">Know More</a></li>
-						<li><a href="/resume/Shradheya_Thakre_CV.pdf" target="_blank" class="scroll w3l_contact"><i class="fa fa-download" aria-hidden="true"></i> Download CV</a></li>
+						<li><a href="resume/Shradheya_Thakre_CV.pdf" target="_blank" class="w3l_contact"><span><i class="fa fa-file-text"></i><i class="fa fa-sub fa-user"></i></span> View CV</a></li>
 					</ul>
 				</div>
 			</div>
@@ -117,6 +117,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<h3>Hi, i'm <span>Shradheya Thakre</span></h3>
 							<h4>The Tech guy</h4>
 							<ul class="address">
+                                <li>
+									<ul class="agileits-address-text">
+										<li><b>NATIONALITY</b></li>
+										<li>Indian</li>
+									</ul>
+								</li>
 								<li>
 									<ul class="agileits-address-text ">
 										<li><b>D.O.B</b></li>
@@ -144,7 +150,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<li>
 									<ul class="agileits-address-text">
 										<li><b>WEBSITE </b></li>
-										<li><a href="#">www.tshradheya.github.io</a></li>
+										<li><a href="#">www.shradheyathakre.me</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -1144,7 +1150,12 @@ User Guide and Developer guide and CI tools like Travis, CodeCov and AppVeyor</l
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){
 			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            var top = ($(this.hash).offset() || {"top":NaN}).top;
+            if(!isNaN(top))
+			    $('html, body').animate({scrollTop:top},1000);
+            else{
+
+            }
 		});
 	});
 </script>
