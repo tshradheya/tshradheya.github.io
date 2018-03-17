@@ -4,6 +4,15 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+
+.fa-sub {
+   position: relative;
+   left: -.5em;
+   width: .2em;
+   vertical-align: -.25em;
+   text-shadow: -1px -1px 0px white, -1px 1px 0px white, -1px 0px 0px white; // optional contrast
+ }
+ 
 html, body{
     font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
