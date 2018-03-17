@@ -1,3 +1,3 @@
 # Personal Website - Shradheya Thakre
 
-Click [here](http://www.shradheyathakre.me) to visit the website
+[www.shradheyathakre.me](http://www.shradheyathakre.me) <- Click here to visit the website
