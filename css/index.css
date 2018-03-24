@@ -33,8 +33,7 @@ p{
 	position:absolute;
 	top:0;
 	left:0;
-	width:110px;
-	font-size:14px;
+	font-size:16px;
 	color:#000000;
 	background:#6adcfa;
 	-webkit-border-radius:35px;
@@ -69,9 +68,9 @@ p{
 	position:absolute;
 	right:10px;
 	top:0;
-	font-size:12px;
+	font-size:15px;
 	height:30px;
 	line-height:30px;
-	color:#ffffff;
+	color:#000000;
 	color:rgba(0, 0, 0, 0.4);
 }
