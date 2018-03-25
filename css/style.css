@@ -5,6 +5,14 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
+
+.standard {
+    line-height: 20px;
+    letter-spacing: .5px;
+    font-size: 12px;
+    margin: 1em 0;
+}
+
 .fa-sub {
    position: relative;
    left: -.5em;
@@ -833,13 +841,15 @@ b, strong {
 	letter-spacing:2px;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .about h5, .skills h5, .map h5, .contact h5, .portfolio h5 {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 30px;
     color: #000;
-    text-transform: uppercase;
-    font-weight: bold;
 	letter-spacing:2px;
 }
 
@@ -880,6 +890,10 @@ b, strong {
     margin-bottom: 0em;
 }
 
+.img-gallery {
+    width: 200px;
+    height: 200px;
+}
 .w3labout-img img.img-responsive {
     width: 100%;
 	-webkit-transition:.5s all;
@@ -963,6 +977,55 @@ b, strong {
 /* // hover effect */
 /*-- //about --*/
 
+
+.grid1 h3 {
+    color: #146eb4;
+    text-transform: capitalize;
+    margin-bottom: .5em;
+    font-size: 24px;
+}
+.grid1 h4 {
+    color: #272727;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 20px;
+}
+.grid1 p {
+    font-size: 14.5px;
+    color: #4a4a4a;
+    letter-spacing: .5px;
+    line-height: 28px;
+    text-align: center;
+    margin: 1em 0 0;
+}
+.grid1 {
+    padding: 2em;
+    border: 1px solid #dedede;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	-webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.75);
+}
+
+.educationbottom {
+    margin-top: 2em;
+}
+
+
+.grid1:hover {
+    padding: 2em;
+    border: 1px solid #dedede;
+	-webkit-box-shadow: 0px 1px 16px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 16px 3px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 16px 3px rgba(0,0,0,0.75);
+}
+
+
+
 /* Skills */
 .skills,.contact,.education,.about,.portfolio{
 	padding:5em 0;
@@ -974,6 +1037,7 @@ b, strong {
 .skill-grids-right h4 {
     text-align: center;
     margin-top: 1em;
+    font-weight: 400;
 }
 .skill-grids h2, .contact-left h3{
     font-size: 40px;
@@ -1230,9 +1294,9 @@ i.fa.fa-hourglass-end {
 	}
 
 	.portfolio h4 {
-		margin: 30px 0;
-		font-size: 25px;
-		font-weight: 600;
+		margin: 25px 0;
+		font-size: 20px;
+		font-weight: 400;
 	}
 
 		/*-- Tabs-Content --*/
@@ -1254,14 +1318,14 @@ i.fa.fa-hourglass-end {
 		}
 
 		.content-wrap section p {
-			margin: 0;
 			padding: 0.75em 0;
-			color: rgba(40,44,42,0.05);
-			font-weight: 900;
+			font-weight: 400;
 			/*--w3layouts--*/
 			/*--agileits--*/
-			font-size: 4em;
-			line-height: 1;
+            line-height: 20px;
+            letter-spacing: .5px;
+            font-size: 16px;
+            margin: 1em 0;
 		}
 
 		/*-- //Tabs-Content --*/
@@ -1319,7 +1383,7 @@ i.fa.fa-hourglass-end {
 		/*-- Tab-Images --*/
 
 		.gallery-top {
-			padding: 0;
+			padding: 1.5%;
 		}
 
 		.gallery-grids figure {
@@ -1338,6 +1402,7 @@ i.fa.fa-hourglass-end {
 			position: relative;
 			display: block;
 			width: 100%;
+            height: 300px;
 			border: 3px solid #fff;
 		}
 
@@ -1789,7 +1854,7 @@ iframe {
 		margin-top: 4.5em;
 	}
 	.gallery-top figure.effect-bubba h4 {
-		padding-top: 11%;
+		padding-top: 3%;
 	}
 }
 @media screen and (max-width: 991px){
