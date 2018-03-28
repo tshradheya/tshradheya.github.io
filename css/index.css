@@ -31,11 +31,11 @@ p{
 
 .skillbar-title {
 	position:absolute;
-	font-style: italic;
+	letter-spacing: 1px;
 	top:0;
 	left:0;
 	font-size:16px;
-	color:#000000;
+	color:#ffffff;
 	background:#6adcfa;
 	-webkit-border-radius:35px;
 	-moz-border-radius:35px;
@@ -46,7 +46,7 @@ p{
 .skillbar-title span {
 	white-space: nowrap;
 	display:block;
-	background:rgba(0, 0, 0, 0.15);
+	background:rgba(0, 0, 0, 0);
 	padding:0 20px;
 	height:30px;
 	line-height:30px;

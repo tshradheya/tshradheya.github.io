@@ -370,7 +370,7 @@ img{
 
 /*-- header --*/
 h1 a.navbar-brand {
-    font-size: 35px;
+    font-size: 26px;
     color: #fff !important;
     padding: 0;
     height: inherit;
@@ -867,9 +867,6 @@ b, strong {
     font-size: 50px;
     text-transform: uppercase;
     margin-bottom: 50px;
-    outline-offset: 12px;
-    outline: 7px double #ff4f81;
-    outline-offset: 6px;
     width: 22%;
 	color: #146eb4;
     margin-left: 0.3em;
@@ -1139,17 +1136,15 @@ b, strong {
 
 /* education */
 .education-agile-w3l-year {
-    width: 30%;
+    width: 40%;
     float: left;
-    border-top: 1px solid #11b563;
     border-bottom: transparent;
     padding: 2em 2em;
 }
 .education-agile-w3l-info {
-    width: 70%;
+    width: 60%;
     float: left;
-    padding: 2em 2em;
-    border-top: 1px solid #11b563;
+    padding: 3.5em 2em;
 }
 
 .last {
@@ -1295,7 +1290,7 @@ i.fa.fa-hourglass-end {
 
 	.portfolio h4 {
 		margin: 25px 0;
-		font-size: 20px;
+		font-size: 16px;
 		font-weight: 400;
 	}
 
@@ -1762,7 +1757,7 @@ iframe {
 		margin-bottom: 30px;
 	}
 	.education-agile-w3l-year {
-		padding: 5.5em 1em;
+		padding: 3.5em 1em;
 	}
 	.skills, .contact, .education, .about, .portfolio {
 		padding: 4em 0;
@@ -1813,9 +1808,11 @@ iframe {
 	}
 	.education-agile-w3l-year h4, .education-agile-w3l-info h4 {
 		font-size: 20px;
+        text-align: center;
 	}
 	.education-agile-w3l-year h6, .education-agile-w3l-info h6 {
 		letter-spacing: 1px;
+        text-align: center;
 	}
 	.skills, .contact, .education, .about, .portfolio {
 		padding: 3em 0;
@@ -1827,7 +1824,7 @@ iframe {
 		font-size: 172px;
 	}
 	.portfolio h3 {
-		font-size: 35px;
+		font-size: 28px;
 	}
 	.skill-grids h2, .contact-left h3 {
 		font-size: 30px;
