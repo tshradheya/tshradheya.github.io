@@ -847,7 +847,7 @@ b, strong {
     font-weight: bold;
 }
 
-.about h5, .skills h5, .map h5, .contact h5, .portfolio h5 {
+.about h5, .skills h5, .map h5, .contact h5, .portfolio h5, .education h5{
     font-size: 20px;
     text-align: center;
     margin-bottom: 30px;
