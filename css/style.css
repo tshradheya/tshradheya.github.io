@@ -853,6 +853,9 @@ b, strong {
     margin-bottom: 30px;
     color: #000;
 	letter-spacing:2px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
 }
 
 .about-left p {
